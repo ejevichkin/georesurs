@@ -1,0 +1,90 @@
+.footer {
+    min-height: 300px;
+    background-color: #323643;
+    color: #9396A2;
+    &_const {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        .title_1 {
+            width: 100%;
+            .subtitle {
+            
+                margin-top: 60px;
+                display: flex;
+                flex-direction: column;
+                a {
+                    color: inherit;
+                }
+                &_left {
+                    width:40%;
+                }
+                &_right {
+                    input {
+                        height: 100px;
+                    }
+                }
+            }
+        }
+        .title_2 {
+            width: 100%;
+            .subtitle {
+                display: flex;
+            }
+        }
+        .title {
+            font-size: 20px;
+        }
+        
+    }
+
+    input {
+        display: flex;
+        align-items:flex-start;
+        flex-wrap: wrap;
+        border-top: 0px dotted black;
+        border-right: 0px solid red;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-left: 0px solid yellow;
+        margin-top: 30px;
+        background-color: transparent;
+        color: white;
+    }
+    textarea {
+        color: white;
+        width: 100%;
+        height: 78px;
+        border-top: 0px dotted black;
+        border-right: 0px solid red;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-left: 0px solid yellow;
+        background-color: transparent;
+        margin-top: 30px;
+    }
+    .ussage {
+        margin-top: 20px;
+        display: flex;
+        &_sub {
+            margin-left: 10px;
+            font-size: 13px;
+            font-weight: 600;
+            width: 70%;
+            line-height: 12px;
+            a {
+                color: inherit;
+            }
+        }
+    }
+    button {
+            font-family: 'open sans condensed';
+            text-align: center;
+            color: white;
+            background-color:transparent;
+            width: 202px;
+            height: 42px;
+            font-size: 18px;
+            font-weight: 700;
+            border: 1px solid rgb(255, 255, 255);
+            margin-top: 20px;
+    }
+}

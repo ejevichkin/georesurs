@@ -1,0 +1,28 @@
+.adv {
+    .title {
+        margin-top: 1px;
+    }
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    img {
+        width: 52px;
+        height: 52px;
+    }
+
+    &_gray {
+        
+        font-size: 16px;
+        background-color:rgb(240, 240, 240);
+        padding: 40px 60px;
+        width: 480px;
+        height: 451px;
+    }
+    &_white {
+        font-size: 16px;
+        padding: 40px 60px;
+        width: 480px;
+        height: 451px;
+    }
+}

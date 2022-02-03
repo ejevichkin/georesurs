@@ -1,0 +1,31 @@
+@import 'base/variables';
+
+html {
+    font-family: 'open sans', sans-serif;
+}
+.container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: 'open sans condensed';
+    font-weight: 700;
+
+}
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/places';
+@import 'blocks/work';
+@import 'blocks/advantages';
+@import 'blocks/scheme';
+@import 'blocks/selection';
+@import 'blocks/footer';
+@import 'blocks/sale';
+@import 'blocks/conf';
+@import 'blocks/lot';
+@import 'blocks/media'

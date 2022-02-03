@@ -1,0 +1,92 @@
+
+
+    .carousel__inner {
+        // position: relative;
+        padding: 30px ;
+        width:400px;
+        img {
+            width :400px;
+            height: 300px;
+        }
+        .slick-prev {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            border: none;
+            left: -6px;
+            background-color:transparent;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .slick-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -7px;
+            border: none;
+            background-color:transparent;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+    }
+    .sale_dir_window {
+        position: relative;
+        display: flex;
+        box-shadow: 1px 1px 1px 2px rgb(199, 199, 199);
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .descr {
+        padding: 30px;
+        .title_two {
+            font-family: 'open sans condensed';
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 10px;
+            color: #3C4E66;
+        }
+        .price {
+            font-family: 'open sans condensed';
+            font-size: 24px;
+            color: #3C4E66;
+        }
+        hr {
+            border: 1px dashed rgb(255, 255, 255);
+        }
+        .sub{
+            .title {
+                margin-top: 30px;
+                font-size: 16px;
+                color: black;
+                font-family: 'open sans';
+            }
+            .subtitle {
+                margin-bottom: 20px;
+            }
+            button {
+                width:142px;
+                height: 40px;
+                border:none;
+                margin-right: 30px;
+                color: white;
+                background-color: #779DCB;
+                font-weight: 700;
+                font-family: 'open sans condensed';
+                a {
+                    text-decoration: none;
+                    color:#779DCB;
+                }
+            }
+            .button_a {
+                border:1px solid #779DCB;
+                background-color:white;
+            }
+        }
+    }
+
+    
+

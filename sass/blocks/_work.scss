@@ -1,0 +1,21 @@
+.work {
+    min-height: 600px;
+    background: url('../img/whywe.jpg')  no-repeat;
+    background-size: 50% 65%;
+    background-position: bottom right;   
+    margin-bottom: 20px; 
+    .subtitle {
+        margin-top: 40px;
+        font-size:14px;
+    }
+    .reason {
+        display:grid;
+        font-size: 16px;
+        font-family: 'open sans condensed';
+        font-weight: 700;
+        margin-top: 60px;
+        
+    }
+
+}
+ 

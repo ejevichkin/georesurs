@@ -1,0 +1,26 @@
+.main {
+    margin-top: 40px;
+    background: url('../img/bg/blue.jpg') no-repeat;
+    background-attachment:fixed;
+    background-size:100%;
+    text-align: center;
+    padding-top: 130px;
+    h1 {
+        font-weight: 700;
+        font-size: 60px;
+    }
+    button {
+        border: none;
+        box-shadow: 4px 4px 8px rgb(31, 31, 31);
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        background-color:#769CCD;
+        width: 229px;
+        height: 64px;
+        font-size: 25px;
+        font-family: 'open sans condensed';
+        font-weight: 700;
+        margin-bottom: 150px;
+    }
+}

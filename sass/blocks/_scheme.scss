@@ -1,0 +1,38 @@
+
+.scheme__work {
+    a {
+        color: black;
+    }
+    margin-top: 50px;
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    height: 40%;
+    &_gray {
+        .number {
+            color: #ffffff;
+            font-size: 80px;
+            font-weight: 700;
+            text-align: right;
+            text-shadow: gray -1px -1px 1px;
+        }
+        font-size: 20px;
+        padding: 0px 20px;
+        height: 320px;
+        width: 33%;
+        background-color: rgb(237, 237, 237);
+    }
+    &_white {
+        .number {
+            color: rgb(237, 237, 237);
+            font-size: 80px;
+            font-weight: 700;
+            text-align: right;
+            text-shadow: gray -1px -1px 1px;
+        }
+        font-size: 20px;
+        padding: 0px 20px;
+        height: 320px;
+        width: 33%;
+    }
+}

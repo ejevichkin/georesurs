@@ -1,0 +1,73 @@
+.selection {
+    .ussage {
+        display: flex;
+        margin-left: 80px;
+        font-size: 13px;
+        // font-family: 'open sans condensed';
+        line-height: 15px;
+        font-weight: 600;
+        margin-top: 60px;
+        &_sub {
+            margin-left: 10px;
+        }
+        a {
+            color: black;
+            
+        }
+    }
+    
+    
+    min-height: 500px;
+    background: url('../img/bg/ny.jpg') center no-repeat;
+    // background-size:100%;
+    // margin-top: 50px;
+    .title {
+        color: white;
+        padding:  40px 50px;
+
+        font-family: 'open sans condensed';
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+    .row {
+        padding: 0px 80px;
+        margin-top: 0px;
+        .stroke {
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-between;
+            button {
+                margin-bottom: 20px;
+                font-family: 'open sans condensed';
+                text-align: center;
+                color: white;
+                background-color:transparent;
+                width: 202px;
+                height: 42px;
+                font-size: 18px;
+                font-weight: 700;
+                border: 1px solid rgb(255, 255, 255);
+
+                }
+        }
+        input {
+
+            border-top: 0px dotted black;
+            border-right: 0px solid red;
+            border-bottom: 1px solid rgb(255, 255, 255);
+            border-left: 0px solid yellow;
+            color: rgb(255, 255, 255);
+            padding: 1px;
+            background-color: transparent;
+            margin-bottom: 20px;
+            &::placeholder {
+                color: #323643;
+                font-weight: 700;
+                font-size: 15px;
+            }
+        }
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
