@@ -1,8 +1,7 @@
 .work {
-    min-height: 600px;
-    background: url('../img/whywe.jpg')  no-repeat;
-    background-size: 50% 65%;
-    background-position: bottom right;   
+    min-height: auto;
+
+    
     margin-bottom: 20px; 
     .subtitle {
         margin-top: 40px;
@@ -15,6 +14,11 @@
         font-weight: 700;
         margin-top: 60px;
         
+    }
+    .rows {
+        background: url('../img/whywe.jpg') center (center/cover) no-repeat;
+    background-size: 50%;
+    background-position: bottom right;   
     }
 
 }

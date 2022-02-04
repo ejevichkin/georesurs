@@ -1,8 +1,7 @@
 .main {
     margin-top: 40px;
-    background: url('../img/bg/blue.jpg') no-repeat;
+    background: url('../img/bg/city.jpg') center (center/cover) no-repeat;
     background-attachment:fixed;
-    background-size:100%;
     text-align: center;
     padding-top: 130px;
     h1 {
@@ -22,5 +21,9 @@
         font-family: 'open sans condensed';
         font-weight: 700;
         margin-bottom: 150px;
+        &:hover {
+            background-color: #696c6f;
+            transition: 0.5s;
+        }
     }
 }

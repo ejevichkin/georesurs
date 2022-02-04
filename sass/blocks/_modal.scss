@@ -1,0 +1,95 @@
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, .56);
+}
+.modal {
+    margin-top: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    min-height: 300px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    &__close {
+        position: absolute;
+        top: 0;
+        right: -40px;
+        font-size: 40px;
+        line-height: 20px;
+        font-weight: 600;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    &__subtitle {
+        color: #0d0d0d;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 8px;
+        color: #0d0d0d;
+        font-size: 19px;
+        font-weight: 500;
+        text-align: center;
+    }
+    &_mini {
+        min-height: 140px;
+    }
+    input {
+        margin-bottom: 10px;
+        border:1px solid #769CCD;
+        width: 100%;
+        height: 53px;
+        &::placeholder {
+            color: #769CCD;
+            font-weight: 700;
+            font-size: 15px;
+            padding-left: 5px;
+        }
+    }
+    button {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 50%;
+        border: none;
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        background-color:#769CCD;
+        height: 64px;
+        font-size: 25px;
+        font-family: 'open sans condensed';
+        font-weight: 700;
+        margin-bottom: 15px;
+        &:hover {
+            background-color: #696c6f;
+            transition: 0.5s;
+        }
+    }
+    .mt_25 {
+        width: 100%;
+        margin-top: 20px;
+        &::placeholder {
+            font-size: 13px;
+        }
+    }    
+    .error {
+        border: 2px solid red;
+    }
+    label.error {
+        border:none;
+        margin-bottom: 10px;
+        color: red;
+    }
+}
+#consultation, #thanks {
+    display: none;
+}
