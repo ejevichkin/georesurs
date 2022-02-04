@@ -47,7 +47,7 @@
             <h6>Бесплатный подбор открытых площадок в Москве и ближайшем Подмосковье</h6>
             <h1>АРЕНДА И ПРОДАЖА ЗЕМЛИ</h1>
             <h3>ПОД ПРОМЫШЛЕННЫЕ ИЛИ КОММЕРЧЕСКИЕ ЦЕЛИ</h3>
-            <button class="button button_submit">ОСТАВИТЬ ЗАЯВКУ</button>
+            <button data-modal="consultation" class="button button_submit">ОСТАВИТЬ ЗАЯВКУ</button>
         </div>
 
     </section>
@@ -431,7 +431,7 @@
         </div>
     </section>
 
-    <section class="footer" id="contacts">
+    <footer id="footer">
         <div class="container">
             <div class="footer_const">
                 <div class="title_1">
@@ -469,16 +469,33 @@
                     </div>
                 </div>
             </div>
-            
         </div>
-    </section>
+    </footer>
+    
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Заполните форму</div>
+            <div class="modal__descr">и мы перезвоним Вам в течении 20 минут</div>
+            <form class="feed-form_main mt_25" action="#">
+                <input name="name" required placeholder="Введите Ваше имя" type="text">
+                <input name="phone" required placeholder="Введите Ваш номер телефона">
+                <button class="button">Отправить</button>
+            </form>
+
+            <div class="modal modal_mini mt_25" id="thanks">
+                <div class="modal__close">&times;</div>
+                <div class="modal__subtitle">Спасибо за Вашу заявку</div>
+                <div class="modal__descr">Мы свяжемся с Вами в ближайшее время!</div>
+            </div>
+             
+        </div>
+    </div>
+       
     
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-    <script src="js/lightbox.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
